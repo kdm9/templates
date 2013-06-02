@@ -1,0 +1,23 @@
+\documentclass{beamer}
+\usepackage{textcomp}
+\usepackage{caption}
+\usepackage[style=authoryear,natbib=true,url=false,isbn=false]{biblatex}
+\addbibresource{<++>.bib}
+\usepackage{listings}
+
+% Beamer
+\usetheme{default}
+\setbeamertemplate{frametitle}[default][center]
+  % Title page
+  \title{<++>}
+  \author{Kevin Murray}
+  \institute{<++>}
+  \date{\today}
+
+\begin{document}
+  \begin{frame}
+    \titlepage
+    \vfill
+  \end{frame}
+
+\end{document}
