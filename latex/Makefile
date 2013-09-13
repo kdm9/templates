@@ -1,4 +1,4 @@
-COMPILER=lualatex --interaction=batchmode
+COMPILER=lualatex --interaction=batchmode -shell-escape
 BIB_COMPILER=biber -q
 LATEX_SRC=$(wildcard *.latex)
 BIB_SRC=$(wildcard *.bib)
@@ -19,7 +19,7 @@ endif
 	ls -lh $(patsubst %.latex,%.pdf,$(LATEX_SRC))
 
 clean:
-ifneq ($(wildcard *.bcf *.aux *.bbl *.dvi *.blg *.log *.bak *.idx *.run.xml *-blx.bib *.nav *.out *.snm *.toc), )
-	rm $(wildcard *.bcf *.aux *.bbl *.dvi *.blg *.log *.bak *.idx *.run.xml *-blx.bib *.nav *.out *.snm *.toc)
+ifneq ($(wildcard *.bcf *.aux *.bbl *.dvi *.blg *.log *.bak *.idx *.run.xml *-blx.bib *.nav *.out *.snm *.toc *.pyg *.tdo), )
+	rm $(wildcard *.bcf *.aux *.bbl *.dvi *.blg *.log *.bak *.idx *.run.xml *-blx.bib *.nav *.out *.snm *.toc *.pyg *.tdo)
 
 endif
