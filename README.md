@@ -7,7 +7,7 @@ Some code templates and a helper script or two for rapid boilerplating
 License
 =======
 
-Copyright (C) 2013 Kevin Murray <k.d.murray.91@gmail.com>
+Copyright (C) 2013 Kevin Murray <kevin at kdmurray id au>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
