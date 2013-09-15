@@ -15,9 +15,9 @@
   \date{\today}
 
 \begin{document}
-  \begin{frame}
-    \titlepage
-    \vfill
-  \end{frame}
+\begin{frame}
+  \titlepage
+  \vfill
+\end{frame}
 
 \end{document}
