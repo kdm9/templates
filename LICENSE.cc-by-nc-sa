@@ -1,6 +1,8 @@
 
 <+title+>
-Copyright (C) <+year+> Kevin Murray <k.d.murray.91@gmail.com>
+Copyright (C) <+year+> Kevin Murray <kevin at kdmurray adot id adot au>
+
+(s/ adot /\./g ; s/ at /@/g should give the correct email)
 
 This work is licensed under the terms of the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.
 See <http://creativecommons.org/licenses/by-nc-sa/3.0/deed> for more details.
