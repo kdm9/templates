@@ -1,4 +1,4 @@
-COMPILER=lualatex --interaction=batchmode
+COMPILER=lualatex -shell-escape
 BIB_COMPILER=biber -q
 LATEX_SRC=$(wildcard *.latex)
 BIB_SRC=$(wildcard *.bib)
