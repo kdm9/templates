@@ -1,0 +1,17 @@
+language: c
+
+compiler:
+ - clang
+ - gcc
+
+install:
+ - git submodule update --init
+ - mkdir build
+ - mkdir target
+ - cd build
+
+script:
+ - cmake .. -DCMAKE_INSTALL_PREFIX=../target
+ - make
+ - ctest --output-on-failure
+ - make install
